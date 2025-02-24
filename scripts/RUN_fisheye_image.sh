@@ -32,7 +32,7 @@ fi
 image_width=864   # dual-fisheye image - use video frame size instead
 image_height=432  # dual-fisheye image
 in_dir='../input'
-image_path='../input/input_video.mp4'
+image_path='../input/input_image.png'
 mls_map_path='../utils/grid_xd_yd_3840x1920.yml.gz'
 img_nm='test'
 out_dir='../stitched'
@@ -51,7 +51,7 @@ echo ""
 ${BUILD_DIR}/bin/${BINARY}          \
    --out_dir         $out_dir       \
    --img_nm          $img_nm        \
-   --image_path      $image_path    \
+   --img_path      $image_path    \
    --mls_map_path    $mls_map_path  \
    --enb_lc          $enb_lc        \
    --enb_ra          $enb_ra        \
