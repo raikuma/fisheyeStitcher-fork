@@ -51,7 +51,7 @@ echo ""
 ${BUILD_DIR}/bin/${BINARY}          \
    --out_dir         $out_dir       \
    --img_nm          $img_nm        \
-   --image_path      $video_path    \
+   --image_path      $image_path    \
    --mls_map_path    $mls_map_path  \
    --enb_lc          $enb_lc        \
    --enb_ra          $enb_ra        \
